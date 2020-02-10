@@ -67,29 +67,17 @@ class MasterTron(object):
     self.sock_list = [[ [] for y in range(MONITOR_GRIDY)] for x in range(MONITOR_GRIDX)]
     print self.sock_list
     #ips = open('ip-list-one.txt', 'r')
-    ips = open('ip_list.txt','r')
-    ips.readline() #comment line
-    address = ips.readline().strip()
-    ip_list = [('localhost')]
-##    while address:
-##        print ("address: ")
-##        print(address)
-##        ip_list.append(address)
-##        print("ip list: " )
-##        print(ip_list)
-##        address = ips.readline().strip()
-##        print("address: " )
-##        print(address)
-##    idx = 0
-##    for x in range(0, MONITOR_GRIDX):
-##      for y in range(0, MONITOR_GRIDY):
-##        self.sock_list[x][y] = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-##        self.sock_list[x][y].connect((ip_list[idx], 20000))
-##        idx += 1
-    self.sock_list[0][0] = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    self.sock_list[0][0].connect(('localhost', 8000)) #ip_list[idx], 20000))
+    ips = open('ip_list.txt','r').read()
+    ip_list = [ip for ip in ips.split('\n') if ip != '']
+    print(ip_list)
 
-    # self.ip_list = [('localhost', 20000), ('localhost', 20001)]#, ('localhost', 20001)]
+    idx = 0
+    for x in range(0, MONITOR_GRIDX):
+      for y in range(0, MONITOR_GRIDY):
+        self.sock_list[x][y] = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        self.sock_list[x][y].connect((ip_list[idx], 20000))
+        idx += 1
+
     self.fliped_1x, self.fliped_1y, self.fliped_2x, self.fliped_2y = 4*[False]
     self.flip_1x, self.flip_1y, self.flip_2x, self.flip_2y = 4*[False]
     self.el_time = 0
