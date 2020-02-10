@@ -66,7 +66,8 @@ class MasterTron(object):
     self.image_dict = load_images()
     self.sock_list = [[ [] for y in range(MONITOR_GRIDY)] for x in range(MONITOR_GRIDX)]
     print self.sock_list
-    ips = open('ip-list-one.txt', 'r')
+    #ips = open('ip-list-one.txt', 'r')
+    ips = open('ip_list.txt','r')
     ips.readline() #comment line
     address = ips.readline().strip()
     ip_list = [('localhost')]
