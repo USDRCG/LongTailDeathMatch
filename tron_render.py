@@ -13,8 +13,10 @@ FPS = pygame.time.Clock()
 # GRID_SIZEX = 100 # will probably need to be rectangular
 # GRID_SIZEY = 100
 
-grid_map_x = {1:0,4:0,7:0,2:1,5:1,8:1,3:2,6:2,9:2}
-grid_map_y = {1:0,2:0,3:0,4:1,5:1,6:1,7:2,8:2,9:2}
+grid_map_y = {1:2,4:2,7:2,2:1,5:1,8:1,3:0,6:0,9:0}
+grid_map_x = {1:0,2:0,3:0,4:1,5:1,6:1,7:2,8:2,9:2}
+
+
 
 # # change all of this to a game class
 if __name__ == '__main__':

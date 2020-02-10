@@ -7,8 +7,8 @@ from pprint import pprint
 from helper import draw_logic, load_images, construct_list
 
 
-MONITOR_GRIDX = 1 # width 
-MONITOR_GRIDY = 1 # height
+MONITOR_GRIDX = 3 # width 
+MONITOR_GRIDY = 3 # height
 FULL_GRID_SIZE = (165, 63) # number of locations in full game 
 WORKER_NODE_SIZE = (33,21)
 PLAYER1_START = [0, FULL_GRID_SIZE[1]/2]
@@ -72,11 +72,16 @@ class MasterTron(object):
     print(ip_list)
 
     idx = 0
+    print(MONITOR_GRIDX, MONITOR_GRIDY)
     for x in range(0, MONITOR_GRIDX):
       for y in range(0, MONITOR_GRIDY):
+        print(ip_list[idx],idx)
         self.sock_list[x][y] = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        print(1)
         self.sock_list[x][y].connect((ip_list[idx], 20000))
+        print(2)
         idx += 1
+        print(3)
 
     self.fliped_1x, self.fliped_1y, self.fliped_2x, self.fliped_2y = 4*[False]
     self.flip_1x, self.flip_1y, self.flip_2x, self.flip_2y = 4*[False]
@@ -382,42 +387,42 @@ class MasterTron(object):
           sys.exit()
       if event.type == KEYDOWN:
         # check if trying to go back on themselves
-        if event.key == K_LSHIFT and self.player1.dir != 'left' and not p1_moved:
+        if event.key == K_a and self.player1.dir != 'left' and not p1_moved:
           if self.player1.dir != 'right':
             self.player1.moveleft()
             self.player1.dir = 'left'
             p1_moved = True
-        if event.key == K_x and self.player1.dir != 'right' and not p1_moved:
+        if event.key == K_d and self.player1.dir != 'right' and not p1_moved:
           if self.player1.dir != 'left':
             self.player1.moveright()
             self.player1.dir = 'right'
             p1_moved = True
-        if event.key == K_LALT and self.player1.dir != 'up' and not p1_moved:
+        if event.key == K_w and self.player1.dir != 'up' and not p1_moved:
           if self.player1.dir != 'down':
             self.player1.moveup()
             self.player1.dir = 'up'
             p1_moved = True
-        if event.key == K_z and self.player1.dir != 'down' and not p1_moved:
+        if event.key == K_s and self.player1.dir != 'down' and not p1_moved:
           if self.player1.dir != 'up':
             self.player1.movedown()
             self.player1.dir = 'down'
             p1_moved = True
-        if event.key == K_w and self.player2.dir != 'left' and not p2_moved:
+        if event.key == K_LEFT and self.player2.dir != 'left' and not p2_moved:
           if self.player2.dir != 'right':
             self.player2.moveleft()
             self.player2.dir = 'left'
             p2_moved = True
-        if event.key == K_LEFTBRACKET and self.player2.dir != 'right' and not p2_moved:
+        if event.key == K_RIGHT and self.player2.dir != 'right' and not p2_moved:
           if self.player2.dir != 'left':
             self.player2.moveright()
             self.player2.dir = 'right'
             p2_moved = True
-        if event.key == K_s and self.player2.dir != 'up' and not p2_moved:
+        if event.key == K_UP and self.player2.dir != 'up' and not p2_moved:
           if self.player2.dir != 'down':
             self.player2.moveup()
             self.player2.dir = 'up'
             p2_moved = True
-        if event.key == K_e and self.player2.dir != 'down' and not p2_moved:
+        if event.key == K_DOWN and self.player2.dir != 'down' and not p2_moved:
           if self.player2.dir != 'up':
             self.player2.movedown()
             self.player2.dir = 'down'
