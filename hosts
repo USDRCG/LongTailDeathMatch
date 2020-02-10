@@ -1,0 +1,23 @@
+127.0.0.1	localhost
+::1		localhost ip6-localhost ip6-loopback
+fe00::0		ip6-localnet
+ff00::0		ip6-mcastprefix
+ff02::1		ip6-allnodes
+ff02::2		ip6-allrouters
+
+127.0.1.1	raspberrypi
+10.0.0.253   tile-0-0
+10.0.0.252   tile-0-1
+10.0.0.251   tile-0-2
+10.0.0.250   tile-1-0
+10.0.0.249   tile-1-1
+10.0.0.248   tile-1-2
+10.0.0.247   tile-2-0
+10.0.0.246   tile-2-1
+10.0.0.245   tile-2-2
+10.0.0.244   tile-3-0
+10.0.0.243   tile-3-1
+10.0.0.242   tile-3-2
+10.0.0.241   tile-4-0
+10.0.0.240   tile-4-1
+10.0.0.239   tile-4-2
