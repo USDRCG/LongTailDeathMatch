@@ -9,13 +9,14 @@ from helper import draw_logic, load_images, construct_list
 
 MONITOR_GRIDX = 3 # width 
 MONITOR_GRIDY = 3 # height
-FULL_GRID_SIZE = (165, 63) # number of locations in full game 
-WORKER_NODE_SIZE = (33,21)
+FULL_GRID_SIZE = (63, 60) # number of locations in full game 
+#WORKER_NODE_SIZE = (33,21)
+WORKER_NODE_SIZE = (21,25)
 PLAYER1_START = [0, FULL_GRID_SIZE[1]/2]
 PLAYER2_START = [FULL_GRID_SIZE[0]-1, FULL_GRID_SIZE[1]/2]
 SOCKET_DEL = '*ET*'
 WIN_PAUSE = 3 # seconds
-SPEED = 1
+SPEED = .5
 FPS = pygame.time.Clock()
 NUM_OF_LEVELS = 8
 LEVEL_INC = .5
@@ -25,7 +26,7 @@ for x in range(0, NUM_OF_LEVELS+1):
   LEVEL_MINUTES.append(last)
   last += LEVEL_INC
 LEVEL_TIMES = [x*1000*60 for x in LEVEL_MINUTES]
-LEVEL_SPEED = [x*15 for x in range(1,NUM_OF_LEVELS+2)]
+LEVEL_SPEED = [x*1 for x in range(1,NUM_OF_LEVELS+2)] #replaced x*15 with x*1
 LEVEL_TUPLES = zip(LEVEL_TIMES, LEVEL_SPEED)
 LEVELS = dict(zip([x for x in range(1, NUM_OF_LEVELS+2)], LEVEL_TUPLES))
 END_TIME = LEVEL_TIMES[-1] * 60 * 1000 # minutes x seconds x miliseconds 

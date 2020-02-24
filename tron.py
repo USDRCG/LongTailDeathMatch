@@ -39,8 +39,10 @@ class Game(NetworkGame):
     #self.GRID_SIZEY = 20
     self.GRID_SIZEX = 20
     self.GRID_SIZEY = 17
-    self.bezelx = 33
-    self.bezely = 21
+    #self.bezelx = 33
+    #self.bezely = 21
+    self.bezelx = 21
+    self.bezely = 18
     self.loc = []
     for x in range(0,self.bezelx ):
       self.loc.append([])
