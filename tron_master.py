@@ -9,9 +9,9 @@ from helper import draw_logic, load_images, construct_list
 
 MONITOR_GRIDX = 3 # width 
 MONITOR_GRIDY = 3 # height
-FULL_GRID_SIZE = (63, 60) # number of locations in full game 
+FULL_GRID_SIZE = (63, 51) # number of locations in full game
 #WORKER_NODE_SIZE = (33,21)
-WORKER_NODE_SIZE = (21,25)
+WORKER_NODE_SIZE = (21,17)
 PLAYER1_START = [0, FULL_GRID_SIZE[1]/2]
 PLAYER2_START = [FULL_GRID_SIZE[0]-1, FULL_GRID_SIZE[1]/2]
 SOCKET_DEL = '*ET*'
