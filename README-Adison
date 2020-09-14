@@ -1,0 +1,11 @@
+To play the game: 
+run
+bash start_tron.sh 
+	in one tab, then 
+python tron_master.py 
+	in another tab
+
+bash kill-tron-render.sh
+	kills the game on the screens and brings the screens back
+	(it may be needed to ctrl-c out of the bash start_tron.sh command)
+#tron.py lines 40&41 adjusted screen ratio

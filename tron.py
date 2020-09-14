@@ -37,8 +37,8 @@ class Game(NetworkGame):
     super(Game, self).__init__(location)
     #self.GRID_SIZEX = 32 # 
     #self.GRID_SIZEY = 20
-    self.GRID_SIZEX = 20
-    self.GRID_SIZEY = 16
+    self.GRID_SIZEX = 21 # (21X17 is correct ratio)
+    self.GRID_SIZEY = 17 # (20x16 were original values)
     #self.bezelx = 33
     #self.bezely = 21
     self.bezelx = 21

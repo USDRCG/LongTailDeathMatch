@@ -1,5 +1,6 @@
 #!/bin/bash
 for i in `cat tile-hosts.txt` 
 do
-    ssh -f $i /share/sandbox-cluster-guide-master/examples/LongtailDeathMatch/Parallel_Tron-master/kill-tron.sh
+    ssh -f $i /share/LongTailDeathMatch/kill-tron.sh
 done
+#bash /share/LongTailDeathMatch/kill-tron.sh

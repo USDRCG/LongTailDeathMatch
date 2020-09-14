@@ -1,0 +1,84 @@
+inside tron_render.py
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+1
+2
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.108
+y
+z
+[2, 1]
+a
+10.1.2.108
+b
+c
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+0
+0
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.103
+y
+elif: yindx == 0
+z
+[0, 2]
+a
+10.1.2.103
+b
+c
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+2
+2
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.107
+y
+if: yindx == 2
+z
+[2, 0]
+a
+10.1.2.107
+b
+c

@@ -1,0 +1,947 @@
+f
+1d
+1d
+1d
+1d
+1d
+1d
+1d
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+2
+0
+u
+v
+v
+v
+v
+v
+v
+v
+10.1.2.101
+y
+if: yindx == 2
+z
+[0, 0]
+a
+10.1.2.101
+b
+1a
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+1
+0
+u
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.102
+y
+z
+[0, 1]
+a
+10.1.2.102
+b
+1a
+1d
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+0
+0
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.103
+y
+elif: yindx == 0
+z
+[0, 2]
+a
+10.1.2.103
+b
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+2
+1
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.104
+y
+if: yindx == 2
+z
+[1, 0]
+a
+10.1.2.104
+b
+1d
+1d
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+1
+1
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.105
+y
+z
+[1, 1]
+a
+10.1.2.105
+b
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+0
+1
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.106
+y
+elif: yindx == 0
+z
+[1, 2]
+a
+10.1.2.106
+b
+1d
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+2
+2
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.107
+y
+if: yindx == 2
+z
+[2, 0]
+a
+10.1.2.107
+b
+1d
+1d
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+1
+2
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.108
+y
+z
+[2, 1]
+a
+10.1.2.108
+b
+1d
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+0
+2
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.109
+y
+elif: yindx == 0
+z
+[2, 2]
+a
+10.1.2.109
+b
+1d
+1d
+[[[], [], []], [[], [], []], [[], [], []]]
+['10.1.2.101', '10.1.2.102', '10.1.2.103', '10.1.2.104', '10.1.2.105', '10.1.2.106', '10.1.2.107', '10.1.2.108', '10.1.2.109']
+(3, 3)
+('10.1.2.101', 0)
+1
+2
+3
+('10.1.2.102', 1)
+1
+2
+3
+('10.1.2.103', 2)
+1
+2
+3
+('10.1.2.104', 3)
+1
+2
+3
+('10.1.2.105', 4)
+1
+2
+3
+('10.1.2.106', 5)
+1
+2
+3
+('10.1.2.107', 6)
+1
+2
+3
+('10.1.2.108', 7)
+1
+2
+3
+('10.1.2.109', 8)
+1
+2
+3
+[[[], [], []], [[], [], []], [[], [], []]]
+['10.1.2.101', '10.1.2.102', '10.1.2.103', '10.1.2.104', '10.1.2.105', '10.1.2.106', '10.1.2.107', '10.1.2.108', '10.1.2.109']
+(3, 3)
+('10.1.2.101', 0)
+1
+2
+3
+('10.1.2.102', 1)
+1
+2
+3
+('10.1.2.103', 2)
+1
+2
+3
+('10.1.2.104', 3)
+1
+2
+3
+('10.1.2.105', 4)
+1
+2
+3
+('10.1.2.106', 5)
+1
+2
+3
+('10.1.2.107', 6)
+1
+2
+3
+('10.1.2.108', 7)
+1
+2
+3
+('10.1.2.109', 8)
+1
+2
+3
+1a
+1a
+1a
+1b
+1a
+1b
+1a
+1a
+1b
+1a
+1a
+1b
+1a
+1b
+1b
+1b
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+2
+0
+u
+v
+v
+v
+v
+v
+v
+v
+10.1.2.101
+y
+if: yindx == 2
+z
+[0, 0]
+a
+10.1.2.101
+b
+1a
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+1
+0
+u
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.102
+y
+z
+[0, 1]
+a
+10.1.2.102
+b
+1a
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+0
+0
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.103
+y
+elif: yindx == 0
+z
+[0, 2]
+a
+10.1.2.103
+b
+1b
+1b
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+2
+1
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.104
+y
+if: yindx == 2
+z
+[1, 0]
+a
+10.1.2.104
+b
+1b
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+1
+1
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.105
+y
+z
+[1, 1]
+a
+10.1.2.105
+b
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+0
+1
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.106
+y
+elif: yindx == 0
+z
+[1, 2]
+a
+10.1.2.106
+b
+1b
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+2
+2
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.107
+y
+if: yindx == 2
+z
+[2, 0]
+a
+10.1.2.107
+b
+1b
+1b
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+1
+2
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.108
+y
+z
+[2, 1]
+a
+10.1.2.108
+b
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+0
+2
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.109
+y
+elif: yindx == 0
+z
+[2, 2]
+a
+10.1.2.109
+b
+1b
+1b
+1b
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+0
+0
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.103
+y
+elif: yindx == 0
+z
+[0, 2]
+a
+10.1.2.103
+b
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+1
+1
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.105
+y
+z
+[1, 1]
+a
+10.1.2.105
+b
+1b
+1b
+1a
+1a
+1a
+1a
+1a
+1a
+1a
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+2
+0
+u
+v
+v
+v
+v
+v
+v
+v
+10.1.2.101
+y
+if: yindx == 2
+z
+[0, 0]
+a
+10.1.2.101
+b
+1a
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+1
+0
+u
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.102
+y
+z
+[0, 1]
+a
+10.1.2.102
+b
+1a
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+0
+0
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.103
+y
+elif: yindx == 0
+z
+[0, 2]
+a
+10.1.2.103
+b
+1b
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+2
+1
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.104
+y
+if: yindx == 2
+z
+[1, 0]
+a
+10.1.2.104
+b
+1b
+1b
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+1
+1
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.105
+y
+z
+[1, 1]
+a
+10.1.2.105
+b
+1b
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+0
+1
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.106
+y
+elif: yindx == 0
+z
+[1, 2]
+a
+10.1.2.106
+b
+1b
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+2
+2
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.107
+y
+if: yindx == 2
+z
+[2, 0]
+a
+10.1.2.107
+b
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+1
+2
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.108
+y
+z
+[2, 1]
+a
+10.1.2.108
+b
+1b
+1b
+inside tron_render.py
+grid_maps made
+ __name__ = __main__
+xindx & yinx
+0
+2
+u
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+10.1.2.109
+y
+elif: yindx == 0
+z
+[2, 2]
+a
+10.1.2.109
+b
+1b
+1b
